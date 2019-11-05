@@ -1,0 +1,37 @@
+body {
+  font-family: 'Anton', sans-serif;
+}
+
+body {
+  background-image: url("../img/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a:hover {
+  color: #c9e629;
+}
+
+a:visited {
+  color: #c9e629;
+}
+
+.texttop {
+  padding: 5%;
+}
+
+.h1textadd {
+  padding: 13%;
+  color: #6C757D;
+}
+
+.textaddbook, .textlist {
+  padding: 5%;
+  color: #6C757D;
+}
+
+.colortext {
+  color: #6C757D;
+  padding-top: 5%;
+}
+/*# sourceMappingURL=style.css.map */

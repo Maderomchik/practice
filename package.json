@@ -4,7 +4,7 @@
   "description": "projekt",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "json:server": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,9 @@
     "url": "https://github.com/Maderomchik/practice/issues"
   },
   "homepage": "https://github.com/Maderomchik/practice#readme",
-  "dependencies": {},
+  "dependencies": {
+    "json-server": "^0.15.1"
+  },
   "devDependencies": {
     "autoprefixer": "^9.7.0",
     "browser-sync": "^2.26.7",
